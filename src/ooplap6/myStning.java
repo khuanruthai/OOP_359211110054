@@ -17,5 +17,15 @@ public class myStning {
         String msg4 = msg3.concat(" RMUTST");
         System.out.println(msg4);
 
+        System.out.println(msg4.toLowerCase());
+        System.out.println(msg4.toUpperCase());
+        System.out.println(msg4.substring(5,10));
+
+        //trim()//ตัดด้านซ้ายขวา
+        String mag5 = " Hello ";
+        System.out.println("*"+mag5+"*");
+        System.out.println("*"+mag5.trim()+"*");
+
+
     }//main
 }//class
