@@ -17,7 +17,7 @@ public class myArray {
         num[1] = 100;
         num[3] = num[1] *3; //100*=300
         num[5-1] = num[3] /50; //300/50 = 6;
-     //   num[5] = 500;
+        num[5] = 500;
         shortData(num);
         int num2[] = new  int[MAX]; //10 elements
         shortData(num2);
