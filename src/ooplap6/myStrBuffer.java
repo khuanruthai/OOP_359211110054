@@ -1,9 +1,9 @@
-package ooplap6;
+package ooplab6;
 
 public class myStrBuffer {
     public static void main(String[] args) {
-        //StringBuffer
-       StringBuffer buffer= new StringBuffer();
+        // String Buffer
+        StringBuffer buffer = new StringBuffer();
         buffer.append("Hello");
         buffer.append(" ");
         buffer.append("to");
@@ -12,10 +12,12 @@ public class myStrBuffer {
         buffer.append(" ");
         buffer.append(2017);
         System.out.println(buffer);
-        buffer.replace(0,5,"University to");
-        System.out.println(buffer.replace());
-        buffer.setCharAt(0, 't');
+        buffer.replace(0, 5,"University of");           // เปลียนข้อมูลตำแหน่งที่ 0-5
+        System.out.println(buffer);
+        System.out.println(buffer.reverse());                       // สลับข้อมูลจากหน้าไปหลัง-หลังไปหน้า
+        buffer.setCharAt(0,'T');                           // เปลี่ยนข้อมูลตามตำแหน่งที่ต้องการ
         System.out.println(buffer);
 
-    }//main
-}//class
+
+    } // main
+} // class
