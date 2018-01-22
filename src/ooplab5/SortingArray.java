@@ -1,4 +1,4 @@
-package ooplap5;
+package ooplab5;
 //1.allow input data to array :inputData :showData
 //2.find summation of data in array
 //3.find average value in array //ค่าเฉลี่ย
@@ -8,7 +8,6 @@ package ooplap5;
 //7.sorting data in array ascending order //มากไปน้อย
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Scanner;
 

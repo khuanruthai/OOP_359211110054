@@ -1,6 +1,4 @@
-package ooplap2;
-
-import java.util.concurrent.SynchronousQueue;
+package ooplab2;
 
 public class TesVariable {
     public static void main(String[] args) {

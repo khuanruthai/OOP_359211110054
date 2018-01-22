@@ -1,4 +1,4 @@
-package ooplap2.OOPLAP3;
+package ooplab2.OOPLAP3;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ooplap6;
+package ooplab6;
 
 public class compareString {
     public static void main(String[] args) {

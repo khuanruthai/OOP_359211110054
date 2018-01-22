@@ -1,6 +1,5 @@
-package ooplap7;
+package ooplab7;
 
-import com.sun.xml.internal.bind.v2.model.core.ID;
 import java.util.Scanner;
 public class StudentApp {
     public static void main(String[] args) {

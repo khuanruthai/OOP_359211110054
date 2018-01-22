@@ -1,4 +1,4 @@
-package ooplap5;
+package ooplab5;
 //1.declare array as Integer // ประกาศ
 //2.allow user to input data in to array // ใส่ค่า
 //3.show data in array//เเสดงค่าออกมา

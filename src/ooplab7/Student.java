@@ -1,4 +1,4 @@
-package ooplap7;
+package ooplab7;
 //design
 // id;
 // name;
