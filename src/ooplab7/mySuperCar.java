@@ -26,7 +26,6 @@ public class mySuperCar {
         System.out.print("Enter country of origin :");
         c.setCountry(scanner.nextLine());
         System.out.println("-----------------------");
-
         return c;
 
     } // inputData
