@@ -1,12 +1,19 @@
 package ooplab8;
-//abstract class
+// Abstract class
 
-public class Shape {
+public abstract class Shape {                               // Abstract class
     private int width;
-    private int lengt;
+    private int length;
 
-    public abstract int getArea();
+    public abstract double getArea();                           // Abstract method
 
+    // constructorcon
+    public Shape(int width, int length) {
+        this.width = width;
+        this.length = length;
+    }
+
+    // get and set
     public int getWidth() {
         return width;
     }
@@ -15,12 +22,13 @@ public class Shape {
         this.width = width;
     }
 
-    public int getLengt() {
-        return lengt;
+    public int getLength() {
+        return length;
     }
 
-    public void setLengt(int lengt) {
-        this.lengt = lengt;
+    public void setLength(int length) {
+        this.length = length;
     }
 
-}//Shape
+
+} // shpe

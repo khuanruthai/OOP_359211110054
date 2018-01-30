@@ -7,7 +7,7 @@ public class Saiyai implements Campus {
     }
 
     @Override
-    public void getArea("T") {
-
+    public void getArea() {
+        System.out.println("Thugsong Nakhonsithammarat");
     }
 }
